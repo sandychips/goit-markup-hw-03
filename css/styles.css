@@ -208,7 +208,8 @@
   }
   
   .company__item {
-    width: 264px;
+    /*width:246px; */
+    width: calc((100% - 72px) / 4);
   }
   
   .company__title {
@@ -260,6 +261,7 @@
     background-color: var(--color-cloud);
     display: flex;
     gap: 24px;
+    
   }
   
   .team__item {
@@ -299,6 +301,7 @@
   
   .footer {
     background-color: var(--color-navy-blue);
+    padding:100px 0;
   }
   
   .footer__logo-blue {
@@ -328,9 +331,17 @@
     line-height: 1.5;
   }
   
+  .footer a {
+    display:inline-block;
+    margin-bottom: 16px;
+
+  }
+
+
   /* Portfolio */
   .gallery {
-    padding: 96px 0 120px;
+    /*padding: 96px 0 120px;*/
+    padding:120px 0;
   }
   
   .gallery-filter__list {
@@ -371,7 +382,7 @@
   }
 
   .gallery__item {
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100% - 48px) / 3);
     
   }
   
